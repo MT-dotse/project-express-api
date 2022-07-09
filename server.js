@@ -4,9 +4,8 @@ import netflixData from './data/netflix-titles.json';
 import listEndpoints from 'express-list-endpoints';
 
 // Defines the port the app will run on. Defaults to 8080, but can be
-// overridden when starting the server. For example:
-//
-//   PORT=9000 npm start
+// overridden when starting the server.
+
 const port = process.env.PORT || 8080;
 const app = express();
 

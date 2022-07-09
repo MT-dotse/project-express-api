@@ -1,6 +1,43 @@
 # Express API Project 🎥
 
-The aim of the project was to create my first RESTful API using Node in Express. This API have series of endpoints which return both an array of data or a single object. In order to create the different enpoints I used javascript methods such as: find(), filter(), and slice(). To show the the API in use, I created a simple frontend. Overall a great learning experience to have built both the backend and frontend.
+I created my first RESTful API using Express in Node. This API have series of endpoints which returns both a collection of data and single results. In order to create the different endpoints I used javascript methods such as: find(), filter(), and slice(). To show the the API in use, I created a simple frontend. Overall a great learning experience to have built both the backend and frontend.
+
+## Documentation
+
+### Collection of results
+
+<b>GET/shows </b>
+This endpoint returns all the Netflix showes<br>
+
+### Using Query params
+
+<b>GET/shows?type = </b>
+This endpoint returns data by the given type e.g 'movie' and 'tv show'.<br>
+
+<b>GET/shows?country = </b>
+This endpoint returns data by the given country. <br>
+
+<b>GET/shows?release = </b>
+This endpoint returns data by the given release year.<br>
+
+<b>GET/shows?cast = </b>
+This endpoint returns data by the given actress/actor e.g. 'Halle Berry', and 'Bruce Willis'.<br>
+
+<b>GET/shows?genre = </b>
+This endpoint returns data by the given genre e.g. 'drama', 'action' and 'comedy'.<br>
+
+<b>GET/shows?director = </b>
+This endpoint returns data by the given director name e.g. 'Martin, Scorsese' and 'Steven Spielberg'.<br>
+
+### Using Path params
+
+### Single results
+
+<b>GET/id/:id </b>
+This endpoint returns a title based on the unique id e.g '70172928' to get the title 'War Horse'.<br>
+
+<b>GET/title/:title </b>
+This endpoint returns a title based the given title e.g 'War Horse'.<br>
 
 ## View it live
 
